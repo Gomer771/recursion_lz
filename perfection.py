@@ -5,6 +5,7 @@ def perfect(n, i=1, sum_divisors=0):#вызываем функцию
 
     #если текущий делитель равен n, функция возвращает True
     if i == n: 
+
         return sum_divisors == n 
     
     if n % i == 0: #если n делится на i без остатка
